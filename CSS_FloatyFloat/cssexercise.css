@@ -1,0 +1,161 @@
+body {
+
+	background-color: #8eabc0;
+
+}
+
+p {
+
+	color: white;
+	font-family: Helvetica;
+	font-size: 12px;
+	padding-left: 10px;
+
+	
+}
+
+
+/*header*/
+
+.header {
+
+	background-color: #f2a062;
+	padding: 10px 10px 10px 0px;
+	width:100%;
+
+}
+
+.header1 {
+	height: 40px; /*Just for Exercise 1 and 3*/
+}
+
+.header2 {
+
+	position: absolute;
+	
+
+}
+
+/*top*/
+
+.logo {
+
+	background-color: #eb6481;
+	height: 35px;
+	width:125px;
+	margin: 5px 0px 5px 10px;
+	line-height: 5px;
+	text-align: left;
+	float: left;
+	
+}
+
+
+.navigation {
+	
+	background-color: #d76a50;
+	height: 35px;
+	width:82%; /*--> I'm using 82% witdth, but if I reduce the browser size enough, it will jump to the line below. How can I avoid this?*/
+	margin: 5px 5px 5px 0px;
+	float: left;
+
+}
+
+
+
+
+/*sidebar*/
+
+ .sidebar {
+
+	background-color: #f6bd62;
+	width: 130px;
+	height: 100%;
+	float: left;
+
+ }
+
+
+
+
+/*content --> I'm using 85% witdth, but if I reduce the browser size enough, it will jump to the line below. How can I avoid this?*/
+
+ .content {
+	background-color: #507088;
+	width: 85%;
+	height: 100%;
+	padding-top: 5px;
+	float: left;
+
+
+ }
+
+
+
+
+/*Widgets*/
+
+
+.widget {
+	background-color: #d76a50;
+	width: 130px;
+	height: 130px;
+	margin: 20px 0px 15px 20px;
+	float: left;
+}
+
+.sub-widget { /*the <p> in class="widget" is pushing the sub-widget down. Is there any way to avoid this or is this always going to happen no matter what?  */
+	background-color: white;
+	width: 80px;
+	height: 30px;
+	margin: 25px 10px 30px 22px;
+	padding: 1px 2px 3px 2px;
+
+}
+
+
+.blue {
+	background-color: #507088;
+}
+
+
+.gadget {
+
+	width: 130px;
+	height: 130px;
+	border-radius: 15px;
+	margin: 20px 0px 15px 20px;
+	float: left;
+
+}
+
+.pink {
+
+	background-color: #eb6481;
+
+}
+
+.clear {
+
+	clear: left;
+}
+
+.darkBlue {
+
+	background-color: #3a5162;
+
+}
+
+
+/*footer*/
+
+
+.footer {
+
+	position: fixed;
+	bottom: 0;
+	background-color: #b7ce3e;
+	height: 45px;
+	width:100%;
+	clear: both;
+}
