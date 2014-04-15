@@ -80,6 +80,9 @@ p {
 
 /*content --> I'm using 85% witdth, but if I reduce the browser size enough, it will jump to the line below. How can I avoid this?*/
 
+
+	/* we'll talk about responsive design later. you can use media queries to detect the browser size and change your CSS based on it. otherwise, you can't really. you can make sidebar/logo a % also, but at some point when the browser becomes really small there just won't be enough room. */
+
  .content {
 	background-color: #507088;
 	width: 85%;
@@ -105,6 +108,7 @@ p {
 }
 
 .sub-widget { /*the <p> in class="widget" is pushing the sub-widget down. Is there any way to avoid this or is this always going to happen no matter what?  */
+/* don't use a paragraph inside the widget :P it's really not a paragraph of text. or you could say like, .widget p {margin: 0;}, but if you were going to remove all the margin on paragraphs you might as well just take the p tag out of your HTML altogether. */
 	background-color: white;
 	width: 80px;
 	height: 30px;
@@ -139,6 +143,7 @@ p {
 
 	clear: left;
 }
+/* can you come up with a way to do this without having a .clear class in your HTML? check out the nth-child(N) Level 18 on http://flukeout.github.io/ */
 
 .darkBlue {
 
